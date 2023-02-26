@@ -1,0 +1,10 @@
+ 
+
+
+
+			   BMI CHART
+
+	BMI			|		FEEDBACK
+ <16					underweight
+ 18.4<BMI<22				healthy
+ >22					overweight

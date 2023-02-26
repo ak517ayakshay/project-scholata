@@ -1,0 +1,16 @@
+
+
+
+----------------------------------SCHOLATA---------------------------------------
+
+	CLASS		|		CATEGORY
+--------------------------------------------------------
+ class 8			1(enter 1 if u belong here)
+ class 9			2(enter 2 if u belong here)
+ class 10			3(enter 3 if u belong here)
+ class11&12			4(enter 4 if u belong here)
+ degree				5(enter 5 if u belong here)
+ sports				6(enter 6 if u belong here)
+
+
+
