@@ -6,6 +6,7 @@ typedef struct node{
    char url[100];
    char pap[10000];
    struct node * link;
+   char gf[100];
 }*NODE;
 typedef
 struct node1
@@ -185,14 +186,18 @@ void insert(NODE first,NODE second,NODE third,NODE fourth,NODE fifth,NODE sixth)
  strcpy(first->pap,"8thinsertaky.txt");
   first->link=second;
   strcpy(first->url,"start chrome https://www.buddy4study.com/");
+  strcpy(first->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
   second->spec=2;
   strcpy(second->pap,"9thinsertaky.txt");
+  strcpy(second->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
   second->link=third;
   strcpy(second->url,"start chrome https://www.buddy4study.com/");
   third->spec=3;
   strcpy(third->pap,"10thinsertaky.txt");
+  strcpy(third->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
   third->link=fourth;
  strcpy(third->url,"start chrome https://www.buddy4study.com/");
+ strcpy(fourth->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
   fourth->spec=4;
   strcpy(fourth->pap,"11th12thinsertaky.txt");
 
@@ -200,6 +205,7 @@ void insert(NODE first,NODE second,NODE third,NODE fourth,NODE fifth,NODE sixth)
   fourth->link=fifth;
   fifth->spec=5;
    strcpy(fifth->pap,"degreeinsertaky.txt");
+   strcpy(fifth->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
   fifth->link=sixth;
  strcpy(fifth->url,"start chrome https://scholarships.gov.in");
 // printf("jjdd");
@@ -207,6 +213,7 @@ sixth->spec=6;
 sixth->link=NULL;
 strcpy(sixth->url,"start chrome https://ongcindia.com");
 strcpy(sixth->pap,"sportsinsertaky.txt");
+strcpy(sixth->gf, "https://forms.gle/fQBe8WSRxWjFA79y7");
 
 
 
@@ -246,6 +253,11 @@ int heading(){
     fclose(file_pointer);
     return 0;
 }
+int gfo(){
+char command[50] = "start chrome https://forms.gle/fQBe8WSRxWjFA79y7";
+//printf("Opening youtube.com from terminal in 5 sec\n");
+system(command);
+}
 float calc(){
   float sum,t;
 printf("lets calculate now\n");
@@ -271,7 +283,7 @@ system(command);
 int solve(){
   //  printf("kk");
 //input();
-int ch,ch1,ch2,cu,bmic;
+int ch,ch1,ch2,cu,bmic,gfh;
   float per;
   float sum,t;
 NODE first1,second1,third1,fourth1,fifth1,sixth1,seventh1;
@@ -325,6 +337,13 @@ heading();
     if(ch2==2){
       urlopener(first1);
     }
+    printf("\n");
+    printf("\n");
+   printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
     break;
 
     case 2:
@@ -365,6 +384,13 @@ heading();
     if(ch2==2){
       urlopener(second1);
     }
+     printf("\n");
+    printf("\n");
+    printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
     break;
 
     case 3:
@@ -405,6 +431,13 @@ heading();
     if(ch2==2){
         urlopener(third1);
     }
+     printf("\n");
+    printf("\n");
+    printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
     break;
   
 
@@ -446,6 +479,13 @@ heading();
     if(ch2==2){
       urlopener(fourth1);
     }
+     printf("\n");
+    printf("\n");
+    printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
     break;
 
     case 5:
@@ -484,7 +524,15 @@ heading();
     if(ch2==2){
       urlopener(fifth1);
     }
-    break;
+    
+     printf("\n");
+    printf("\n");
+    printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
+   break;
    case 6:
 
    
@@ -523,14 +571,22 @@ heading();
     }
     if(ch2==2){
       urlopener(sixth1);
+
     }
+     printf("\n");
+    printf("\n");
+    printf("Enter 1 if you are intrested you will be redirected to a google form\n ");
+   scanf("%d",&gfh);
+   if(gfh==1){
+    gfo();
+   }
 break;
 
 }
 }
 
 int main(){
-  while(3){
+ while(3){
 solve();
 
 
