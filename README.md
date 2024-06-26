@@ -16,7 +16,7 @@ To install Scholata, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/ak517ayakshay/project-scholata.git`
 2. Navigate to the project directory: `cd project-scholata`
-3. Install dependencies: `npm install` (or relevant command for your setup)
+
 
 ## Contact
 
